@@ -1,6 +1,6 @@
 ### Shadow DOM Web Component using a Template
 
-Here we see how the shadow DOM and templates can work together to make isolated, reusable components. 
+An example of how the shadow DOM and templates can work together with slots to make isolated, reusable components. 
 
 We use `slots` to allow placeholder markup to be "injected" into the template clone of our component.
 
