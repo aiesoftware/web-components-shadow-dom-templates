@@ -14,7 +14,7 @@ class ShadowDomTemplate extends HTMLElement {
                 padding: 5px;
             }
         </style>
-        <p>My paragraph</p>
+        <p><slot name="boo">My paragraph</slot></p>
         <p><slot name="my-text">Default text for this slot</slot></p>
 `;
 
